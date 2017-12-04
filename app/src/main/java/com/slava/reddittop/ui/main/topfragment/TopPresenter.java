@@ -8,6 +8,7 @@ import io.reactivex.schedulers.Schedulers;
 
 public class TopPresenter extends BasePresenter<TopMvp.View> implements TopMvp.Presenter {
 
+
     @Override
     public void getRedditTop(String after, int limit) {
         compositeDisposable.add(RestApi

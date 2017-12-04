@@ -59,7 +59,7 @@ public class TopFragment extends BaseFragment implements TopMvp.View, TopAdapter
     }
 
     /**
-     * initialize recycler view;
+     * Initialize recycler view;
      */
     void initRv() {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
@@ -102,7 +102,7 @@ public class TopFragment extends BaseFragment implements TopMvp.View, TopAdapter
 
 
     /**
-     * @return instance of this fragment;
+     * @return Provide instance of this fragment;
      */
     public static TopFragment newInstance() {
         TopFragment myFragment = new TopFragment();

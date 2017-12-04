@@ -44,7 +44,7 @@ public class TopAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     }
 
     /**
-     * clears list of adapter.
+     * Clears list of adapter.
      */
     void clearList() {
         children.clear();
@@ -109,7 +109,7 @@ public class TopAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
 
     /**
-     * adds progressbar.
+     * Adds progressbar in the bottom of the list.
      */
     void addLoadingFooter() {
         isLoadingAdded = true;
@@ -118,7 +118,7 @@ public class TopAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     }
 
     /**
-     * removes progressbar.
+     * Removes progressbar from the bottom of the list.
      */
     void removeLoadingFooter() {
         isLoadingAdded = false;
@@ -134,7 +134,7 @@ public class TopAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     }
 
     /**
-     * class for progress bar in recyclerview;
+     * Class for progress bar in recyclerView;
      */
 
     class LoadingViewHolder extends RecyclerView.ViewHolder {
@@ -149,7 +149,7 @@ public class TopAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
 
     /**
-     * class for model.
+     * Class for RedditTop model.
      */
     class RedditTopViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         @BindView(R.id.tv_title)
@@ -171,9 +171,10 @@ public class TopAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         }
 
         /**
-         * fills viewHolder.
+         * Fills viewholder with data from Reddit Top.
          *
-         * @param child - model;
+         * @param child - contains: title, author, time post, thumbnail,
+         * number of comments and upvotes.
          */
         void setItemTop(Child child) {
             tvTitle.setText(MessageFormat

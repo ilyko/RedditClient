@@ -12,7 +12,7 @@ public interface Mvp {
 
     interface View {
         /**
-         * show error message
+         * Shows error message
          */
         void handleError();
     }
