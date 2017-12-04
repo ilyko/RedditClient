@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RedditTop</string>
+    <string name="error">Something went wrong. Please, try again</string>
+    <string name="try_again">try again</string>
+</resources>

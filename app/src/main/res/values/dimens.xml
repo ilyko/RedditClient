@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_margin">8dp</dimen>
+    <dimen name="image_size">64dp</dimen>
+    <dimen name="margin_top">8dp</dimen>
+    <dimen name="right_left_list">16dp</dimen>
+</resources>

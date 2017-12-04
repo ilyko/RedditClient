@@ -1,0 +1,14 @@
+ext {
+    okhttpVersion = '3.4.1'
+    retrofitVersion = '2.3.0'
+    glideVersion = '3.7.0'
+
+    retrofitVersion = "2.3.0"
+    supportLibraryVersion = '26.1.0'
+    rxjavaVersion = '2.1.1'
+    rxandroidVersion = '2.0.1'
+    rxbinding = '2.0.0'
+    butterKnifeVersion = '8.8.1'
+    constraintLayoutVersion = '1.0.2'
+
+}
